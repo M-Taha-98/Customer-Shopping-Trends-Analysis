@@ -1,27 +1,28 @@
 [![👉View Report on Notion](https://img.shields.io/badge/View%20Report%20on-Notion-black?logo=notion&logoColor=white)](https://www.notion.so/Customer-Shopping-Trend-Analysis-1ed78d64687e80c496ddcfd8e657826a?pvs=4)
 
 # Customer Shopping Trends Analysis
-An exploration of retail chain's customer shopping behaviours and preferences to create a targeted marketing strategy for the upcoming season.
+###### An exploration of retail chain's customer shopping behaviours and preferences to create a targeted marketing strategy for the upcoming season
 
-# Project Overview
+![Customer shopping trend](https://github.com/user-attachments/assets/073c195e-2ad4-41bb-b3d1-922f926a8e4a)
+___
+
+## Project Overview
 The management at retail chain is looking to use their customer purchase information to understand purchase patterns, analyze customer segments, and create a targeted marketing strategy for the upcoming season.
 The project is undertaken to analyze this dataset, generate meaningful business insights and prepare a stakeholder dashboard to present the findings effectively.
 
-# Data Source
+## Data Source
 The primary data used for this project is the "raw data.csv" file which records each sale transaction, along with customer review rating, purchase frequecy etc.
 
-# Dataset Description:
+## Dataset Description:
 
 The dataset contains retail transaction data with the following features:
 
 - Customer ID - Unique identifier for each customer
 - Age/Gender - Customer details
 - Item Purchased - The item purchased by the customer
-- Category - Category of the item purchased
+- Category/Size/Color - Product details
 - Purchase Amount (USD) - The amount of the purchase in USD
 - Location - Location where the purchase was made
-- Size - Size of the purchased item
-- Color - Color of the purchased item
 - Season - Season during which the purchase was made
 - Review Rating - Rating given by the customer for the purchased item
 - Subscription Status - Indicates if the customer has a subscription (Yes/No)
@@ -32,56 +33,63 @@ The dataset contains retail transaction data with the following features:
 - Payment Method - Customer's preferred payment method
 - Frequency of Purchases - Frequency at which the customer makes purchases (e.g., Weekly, Fortnightly, Monthly)
 
-# Tools Used
+## Tools Used
 - Power BI
 
-# Data Preparation/Cleaning
-In the initial data preparation stage, following tasks are performed:
+## Data Preparation/Cleaning
+Initial data cleaning/transformation is performed in Power Query:
 
-Data loading and inspection
-Data validation
-Data cleaning and formatting
-Handling missing and duplicate values
-Adding custom features
+- Renaming columns to meaningful headers.
+- Removing extra columns which are not required.
+- Splitting of columns such as Color-Size into two.
+- Data type correction for required columns.
+- Adding custom columns: Age binning:
+  
+  ![image](https://github.com/user-attachments/assets/d2583039-474a-4e8d-8872-12ad94c368fd)
 
-# Exploratory Analysis
+  
+
+## Exploratory Analysis
 In this stage, the data was explored to identify data’s structure, quality, and limitations:
 
-Data Profiling/ Initial Data Diagnostics/Data Summarization: descriptive statistics, cardinality check, data type inspection, correlation analysis.
+Data Profiling/ Initial Data Diagnostics/Data Summarization: descriptive statistics, cardinality check, data distribution through histogram.
 
-# Data Analysis
-The analysis step involved performing bivariate and multivariate analysis to explore how different features affect Sales/Profit as well as other features.
+## Data Analysis
+The analysis step is divided into three separate business domains: Customer Demographics Analysis, Product and Category Analysis, and Geographical Analysis.
 
-Few of the dimensions and relationships explored are:
+#### Customer Demographics Analysis
+- Age distribution of the customer base.
+- Age group showing the highest loyalty measured by total previous purchases, and making the most high-value purchases.
+- Purchase frequency variation across genders.
 
-Which product categories and sub-categories are leading in revenue generation and those performing poorly.
-Impact of discount variability on margins across different product categories, and identifying profitable discount thresholds.
-Time series analysis: time-based trends in category level performance.
-Identifying customer segments that bring in the most volume and profit.
-Regional performance disparities.
-Analyzing performance of different ship modes and order delays to narrow logistical inefficiencies.
+#### Product and Category Analysis
+- Identifying product categories bringing in the highest revenue.
+- Seasonal Trends: Analyze the purchase trends by season to see which seasons have the highest spending.
 
-# Results/Findings
-The insights are presented for key business areas:
+#### Geographical Analysis
+- Location-Based Analysis: Mapping of areas with purchase amount to highlight areas with highest sales.
+- Analyzing the preference of different shipping modes areas bringing in the most business.
+  
+## Results/Findings
+The insights are presented in form of a completely **dynamic stakeholder dashboard** with interactive filtering through slicers to allow management to easily filter and explore specific segments.
 
-Seasonal Trend
-Overall Product Performance
-Product Portfolio Analysis
-Regional Analysis
-Customer Segmentation
-Discount Effectiveness
-Ship Mode and Delays Trend
+*Dashboard Snapshot:*
 
-# Recommendations
+![image](https://github.com/user-attachments/assets/32e52ddb-22a1-4331-9a6e-53a627f09415)
+
+
+## Recommendations
 Based on the analysis, tailored actionable business recommendations are made categorized as follows:
 
-Product Strategy
-Regional Customer Growth and Retention
-Discount Optimization
-Addressing Logistical Shortcomings
+- Personalization & Customer Engagement
+- Customer Growth and Retention
+- Loyalty Program Enhancements
+- Regional Strategy
 
-# Limitations
-The following assumptions and caveats are notified:
+## Limitations
+The following caveats are notified:
 
-It is assumed that the discount value in each transaction record is applied to the total quantity purchased, not just to a single unit.
-The absence of cost-related data—specifically unit cost price (COGS) and logistics costs limits the ability to fully explain certain observations.
+- The lack of cost-related data—particularly unit cost price and logistics expenses restricts the ability to fully interpret certain findings.
+- This also constrains the analysis of profitability at both the individual order level and overall, thereby limiting insights into profit margins.
+___
+[View my Linkedin](https://www.linkedin.com/in/mohammadtaha-businessanalytics/)
