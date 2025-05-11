@@ -71,7 +71,7 @@ The analysis step is divided into three separate business domains: Customer Demo
 - Analyzing the preference of different shipping modes areas bringing in the most business.
   
 ## Results/Findings
-The insights are presented in form of a completely **dynamic stakeholder dashboard** with interactive filtering through slicers to allow management to easily filter and explore specific segments.
+The insights are presented in form of a completely **dynamic stakeholder dashboard** with interactive filtering through slicers to allow management to easily filter and explore specific segments. The dynamic dashboard is thoughtfully designed with data storytelling principles in mind. This is reflected in the use of sub-headings beneath each graph, which succinctly summarize the key insights and narrative conveyed by the data.
 
 *Dashboard Snapshot:*
 
