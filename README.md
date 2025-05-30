@@ -94,4 +94,6 @@ The following caveats are notified:
 - The lack of cost-related data—particularly unit cost price and logistics expenses restricts the ability to fully interpret certain findings.
 - This also constrains the analysis of profitability at both the individual order level and overall, thereby limiting insights into profit margins.
 ___
+[View PBI report here](https://app.powerbi.com/links/TkSuDhyWdJ?ctid=c6e549b3-5f45-4032-aae9-d4244dc5b2c4&pbi_source=linkShare)
+
 [View my Linkedin](https://www.linkedin.com/in/mohammadtaha-businessanalytics/)
