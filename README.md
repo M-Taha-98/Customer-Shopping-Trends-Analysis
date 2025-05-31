@@ -1,6 +1,37 @@
+<!-- 
 [![👉View Report on Notion](https://img.shields.io/badge/View%20Report%20on-Notion-black?logo=notion&logoColor=white)](https://www.notion.so/Customer-Shopping-Trend-Analysis-1ed78d64687e80c496ddcfd8e657826a?pvs=4)
 
 [![👉Project Deep Dive on Medium](https://img.shields.io/badge/Project%20Deep%20Dive%20on-Medium-black?logo=medium&logoColor=white)](https://medium.com/@mtaha_16/customer-shopping-trends-analysis-6a954a79c87a)
+
+[![View Dashboard on Power BI](https://img.shields.io/badge/View%20Dashboard%20on-Power%20BI-F2C811?logo=powerbi&logoColor=black)](https://app.powerbi.com/view?r=eyJrIjoiYjU1YTVmYjMtNTk4ZC00MzA4LTgzZGMtYzdjMWY1N2EwZmM0IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=a213ab011ee5e74fb7cf)
+-->
+
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td align="left">
+        <a href="https://www.notion.so/Customer-Shopping-Trend-Analysis-1ed78d64687e80c496ddcfd8e657826a?pvs=4">
+          <img src="https://img.shields.io/badge/View%20Report%20on-Notion-black?logo=notion&logoColor=white" alt="View Report on Notion" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://medium.com/@mtaha_16/customer-shopping-trends-analysis-6a954a79c87a">
+          <img src="https://img.shields.io/badge/Project%20Deep%20Dive%20on-Medium-black?logo=medium&logoColor=white" alt="Project Deep Dive on Medium" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiYjU1YTVmYjMtNTk4ZC00MzA4LTgzZGMtYzdjMWY1N2EwZmM0IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=a213ab011ee5e74fb7cf">
+          <img src="https://img.shields.io/badge/View%20Dashboard%20on-Power%20BI-F2C811?logo=powerbi&logoColor=black" alt="View Dashboard on Power BI" />
+        </a>
+      </td>
+      <td align="right">
+        <a href="https://www.linkedin.com/in/mohammadtaha-businessanalytics/">
+          <img src="https://img.shields.io/badge/View%20Profile%20on-LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="View Profile on LinkedIn" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 # Customer Shopping Trends Analysis
 ###### An exploration of retail chain's customer shopping behaviours and preferences to create a targeted marketing strategy for the upcoming season
@@ -94,6 +125,6 @@ The following caveats are notified:
 - The lack of cost-related data—particularly unit cost price and logistics expenses restricts the ability to fully interpret certain findings.
 - This also constrains the analysis of profitability at both the individual order level and overall, thereby limiting insights into profit margins.
 ___
-[View PBI report here](https://app.powerbi.com/links/TkSuDhyWdJ?ctid=c6e549b3-5f45-4032-aae9-d4244dc5b2c4&pbi_source=linkShare)
-
+<!-- 
 [View my Linkedin](https://www.linkedin.com/in/mohammadtaha-businessanalytics/)
+-->
