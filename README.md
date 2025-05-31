@@ -26,7 +26,7 @@
       </td>
       <td align="right">
         <a href="https://www.linkedin.com/in/mohammadtaha-businessanalytics/">
-          <img src="https://img.shields.io/badge/View%20Profile%20on-LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="View Profile on LinkedIn" />
+          <img src="https://img.shields.io/badge/Visit%20Profile%20on-LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="Visit Profile on LinkedIn" />
         </a>
       </td>
     </tr>
